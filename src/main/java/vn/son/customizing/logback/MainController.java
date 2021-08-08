@@ -16,7 +16,7 @@ public class MainController {
 	private static final Logger logger = LoggerFactory.getLogger(MainController.class);
 
 	@GetMapping
-	public void generateLogs(@RequestParam(name = "lines", defaultValue = "6000") String linesArg) {
+	public void generateLogs(@RequestParam(name = "lines", defaultValue = "3000") String linesArg) {
 
 		final long lines = Long.parseLong(linesArg);
 		for (int i = 0; i < lines; i++) {
