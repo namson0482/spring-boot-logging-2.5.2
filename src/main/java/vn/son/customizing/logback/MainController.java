@@ -1,4 +1,4 @@
-package com.pablocastelnovo.posts.customizing.logback.spring.M5;
+package vn.son.customizing.logback;
 
 import java.util.Random;
 
