@@ -1,9 +1,0 @@
---------------------------------------------------------------------------
-Application Name : spring-boot-2.5.2
-Application Version : 0.0.1
-Application Formatted Version : 0.0.1
-Spring Boot Version : ${spring-boot.version}
-Spring Boot Formatted Version : ${spring-boot.formatted-version}
---------------------------------------------------------------------------
-${AnsiColor.BRIGHT_RED}	 Spring boot banner customization example
---------------------------------------------------------------------------
