@@ -28,18 +28,4 @@ public class MainController {
 		}
 	}
 
-	
-	@GetMapping(value = "/logs")
-	public void thousand(@RequestParam(name = "lines", defaultValue = "30000") String linesArg) {
-
-		final long lines = Long.parseLong(linesArg);
-		for (int i = 0; i < lines; i++) {
-			final Random rnd = new Random();
-			final long l1 = rnd.nextLong();
-			final long l2 = rnd.nextLong();
-
-			logger.info("The number {} times {} is equal to {}", l1, l2, l1 * l2);
-		}
-	}
-	
 }
