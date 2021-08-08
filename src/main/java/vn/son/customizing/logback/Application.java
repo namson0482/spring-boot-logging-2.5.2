@@ -1,4 +1,4 @@
-package com.pablocastelnovo.posts.customizing.logback.spring.M5;
+package vn.son.customizing.logback;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
