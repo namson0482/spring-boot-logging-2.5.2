@@ -1,6 +1,0 @@
-logging:
-  level:
-    root: INFO
-  file:
-    path: logs_acb
-  config: classpath:logback-spring.xml
