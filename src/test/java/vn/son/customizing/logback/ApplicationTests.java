@@ -1,4 +1,4 @@
-package com.pablocastelnovo.posts.customizing.logback.spring.M5;
+package vn.son.customizing.logback;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
