@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/defaults.xml" />
+
+	<property name="LOG_FILE" value="acb_file" />
+	<property name="FILE_LOG_PATTERN" value="%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n" />
+	<property name="LOG_FILE_MAX_SIZE" value="2MB" />
+	<property name="LOG_TOTAL_SIZE_CAP" value="50MB" />
+	<property name="LOG_FILE_MAX_HISTORY" value="20" />
+
+	<include resource="config-appender.xml" />
+	<root level="INFO">
+		<appender-ref ref="FILE" />
+		<appender-ref ref="CONSOLE" />
+	</root>
+</configuration>
