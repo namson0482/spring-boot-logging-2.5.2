@@ -9,4 +9,8 @@ public class TestLog2 {
 		
 		System.out.println("fix bug 2");
 	}
+	
+	void addNewFunction_1() {
+		System.out.println("New function 1");
+	}
 }
