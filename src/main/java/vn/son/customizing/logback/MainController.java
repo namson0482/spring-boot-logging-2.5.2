@@ -45,4 +45,5 @@ public class MainController {
 			logger.info("The number {} times {} is equal to {}", l1, l2, l1 * l2);
 		}
 	}
+	
 }
