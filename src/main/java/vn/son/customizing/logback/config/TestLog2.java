@@ -6,5 +6,7 @@ public class TestLog2 {
 		System.out.println("Line 1");
 		
 		System.out.println("fix bug 1");
+		
+		System.out.println("fix bug 2");
 	}
 }
